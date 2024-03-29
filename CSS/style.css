@@ -12,11 +12,10 @@ body {
     min-height: 100vh;
     place-content: center;
     margin: 1rem;
-    
 }
 
 .main {
-    max-width: 920px;
+    max-width: 920px; 
 }
 
 .card-1, .card-2, .card-3 {
@@ -45,5 +44,6 @@ body {
     height: 440px;
     width: 80%;
     height: 80%;
+    
 }
 

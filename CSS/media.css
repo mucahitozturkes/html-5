@@ -34,7 +34,7 @@
         padding-bottom: 4rem;
     }
 
-        .card-1 {
+    .card-1 {
         background: var(--primary-orange);
         border-radius: 16px 0px 0px 16px;
     }
@@ -43,5 +43,4 @@
         background: var(--primary-very-dark-cyan);
         border-radius: 0px 16px 16px 0px;
     }
-   
 }
