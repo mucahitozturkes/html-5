@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     place-content: center;
     margin: 1rem;
+    
 }
 
 .main {
@@ -28,6 +29,7 @@ body {
 
 .card-1 {
     background: var(--primary-orange);
+    border-radius: 16px 16px 0px 0px;
 }
 
 .card-2 {
@@ -36,6 +38,7 @@ body {
 
 .card-3 {
     background: var(--primary-very-dark-cyan);
+    border-radius: 0px 0px 16px 16px;
 }
 
 .wrapper-1, .wrapper-2, .wrapper-3 {
