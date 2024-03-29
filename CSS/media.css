@@ -33,5 +33,15 @@
     .wrapper-3 h3 {
         padding-bottom: 4rem;
     }
+
+        .card-1 {
+        background: var(--primary-orange);
+        border-radius: 16px 0px 0px 16px;
+    }
+   
+    .card-3 {
+        background: var(--primary-very-dark-cyan);
+        border-radius: 0px 16px 16px 0px;
+    }
    
 }
