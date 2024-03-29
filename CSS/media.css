@@ -1,0 +1,37 @@
+@media (min-width: 920px) {
+    .main { 
+        display: flex;
+        place-content: center;
+        min-height: 100vh;
+        align-items: center;
+       
+        
+    }
+
+    .card-1, .card-2, .card-3  {
+        height: 500px;
+        min-width: 300px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .wrapper-1, .wrapper-2, .wrapper-3 {
+        width: 75%;
+        height: 85%;
+    }
+   
+    .wrapper-1 h3 {
+      padding-bottom: 4rem;
+    }
+
+    .wrapper-2 h3 {
+        padding-bottom: 4rem;
+    }
+
+    .wrapper-3 h3 {
+        padding-bottom: 4rem;
+    }
+   
+}

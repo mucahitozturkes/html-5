@@ -1,0 +1,46 @@
+:root {
+    --primary-orange: hsl(31, 77%, 52%);
+    --primary-dark-cyan: hsl(184, 100%, 22%);
+    --primary-very-dark-cyan: hsl(179, 100%, 13%);
+
+    --natural-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --narutal-Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+
+}
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
+}
+
+.main {
+    max-width: 920px;
+}
+
+.card-1, .card-2, .card-3 {
+    height: 440px;
+    min-width: 250px;
+    place-content: center;
+    display: flex;
+    align-items: center; 
+}
+
+.card-1 {
+    background: var(--primary-orange);
+}
+
+.card-2 {
+    background: var(--primary-dark-cyan);
+}
+
+.card-3 {
+    background: var(--primary-very-dark-cyan);
+}
+
+.wrapper-1, .wrapper-2, .wrapper-3 {
+    height: 440px;
+    width: 80%;
+    height: 80%;
+}
+
